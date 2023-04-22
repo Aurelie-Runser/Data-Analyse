@@ -176,7 +176,7 @@ const tableFilter = (field) =>{
 
 <template>
     <div>
-        <nav class="flex flex-wrap items-center  my-5 px-5 py-2 rounded-md bg-green-900 font-syne font-semibold text-2sm sm:text-base text-green-50">
+        <nav class="flex flex-wrap items-center my-5 px-5 py-2 rounded-md bg-green-900 font-lexend font-base text-2sm sm:text-base text-green-50">
 
             <a class="text-base sm:text-xl">Sélection :</a>
 
