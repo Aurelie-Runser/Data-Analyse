@@ -16,6 +16,7 @@ module.exports = {
         "xl": "2rem",
         "2xl": "2.5rem",
         "3xl": "3rem",
+        "4xl": "6rem",
       },
 
       fontFamily: {

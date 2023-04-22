@@ -12,6 +12,8 @@ import consoView from '@/views/consoView.vue'
 
 import conclusionView from '@/views/conclusionView.vue'
 
+import Page404 from '../views/404.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -26,6 +28,9 @@ const router = createRouter({
     { path: '/conso',                   name: 'consoView',             component: consoView },
 
     { path: '/conclusion',                   name: 'conclusionView',             component: conclusionView },
+
+    { path: '/:pathMatch(.*)*',    name: 'Page404', component: Page404 },
+
   ],
 
   scrollBehavior() {
