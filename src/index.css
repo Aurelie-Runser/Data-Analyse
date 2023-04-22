@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;900&display=swap');
+
+@layer base{
+    h1{
+        @apply font-lexend font-extrabold text-lg sm:text-xl lg:text-2xl text-green-900
+    }
+
+    h2{
+        @apply font-lexend font-extrabold text-xs lg:text-sm text-green-700 text-center px-5 my-5
+    }
+
+    p{
+        @apply my-5 font-lexend font-normal text-base text-black
+    }
+
+    
+}
