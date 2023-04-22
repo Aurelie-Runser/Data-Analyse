@@ -42,8 +42,8 @@
 
         <prodFiliereTemps class="my-10"/>
 
-        <div>
-            <h2>Pourquoi ce graphique ?</h2>
+        <div class="mt-20">
+            <h3 class="font-lexend font-extrabold text-green-700 text-lg lg:text-xl">Pourquoi ce graphique ?</h3>
             <p>Dans le domaine de l'énergie, un grand nombre d'un types d'installations ne veut pas dire que ce type d'installation produit la majorité de l'énergie, au contraire.</p>
             <p>Par conséquent, pour avoir tout de même une représentation du type d'installation la plus utilisé en France, un graphique indiquant vers quoi la France se tourne pour produire son énergie, ce qui sous-entend quel type elle veut développer, me semble pertinent.</p>
             <p>Pour illustrer une évolution dans le temps, le graphique le plus adapté est un Line, affichant via une courbe les changements d'une valeur au cours du temps de manière très instinctive.</p>

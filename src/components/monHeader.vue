@@ -18,7 +18,7 @@
                 class="fixed z-40 overflow-y-hidden top-0 -translate-y-full w-screen h-screen px-12 bg-green-100 lg:hidden duration-500 transition-transform"
                 :class="{ 'translate-y-0': menuOuvert }">
 
-                <ul class="h-5/6 my-20 font-lexend font-base text-lg text-green-900 flex flex-col justify-between">
+                <ul class="h-5/6 my-10 font-lexend font-base text-lg text-green-900 flex flex-col justify-between">
                     <li>
                         <RouterLink to="/" class="hover:font-extrabold hover:text-base focus:font-extrabold focus:text-base"
                             :aria-expanded="menuOuvert" @click="menuOuvert = false">
